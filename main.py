@@ -7,7 +7,7 @@ intents = discord.Intents.default()
 intents.members = True
 
 client = discord.Client(intents=intents)
-TOKEN = 'MTA5MTM1MzgwNDU3MTY3NjczMw.G6AjjA.bB_mCWCJ-lZbIDV0BLyKYcsT4xGVwu7BbM5SpU'
+TOKEN = 'Token'
 
 def get_nerdin_vagas(cargo):
     url = f'https://nerdin.com.br/vagas?CodigoCidade=5570&CodigoCargo=8&CodigoVaga=&CodigoEmpresa=0&q={cargo}'
